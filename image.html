@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+<title>B.O FORM</title>
+</head>
+<body>
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+<form action="http://google.co.in">
+<!-- If we remove this, every thing will move to the left of the page-->
+<div align="center">
+<!--Adds a heading to the form-->
+<h1>B.O FORM</h1>
+Imung Pangalan:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+Imung Edad:
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Nganung hilig ka mo Tambay sa B.O?:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+<textarea name="Comments" cols=20 rows=1></textarea> </br> </br>
+Naga kaon baka ug B.o?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Oo
+<input type="radio" name="exe" value=2>Dili
+</p>
+Unsay paborito nimo Nga B.O?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Vcut">Vcut
+<input type="checkbox" name="Piattos">Piattos
+<input type="checkbox" name="Presto">Presto
+<input type="checkbox" name="Magic Flakes">Magic Flakes
+</p>
+Kinsay Gusto nimo nga Helper?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">Oplok
+<option value=2 >Boy Ulok
+<option value=3 >Super Visor
+<option value=4 >Badjao
+<option value=5 >Boy Pako
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Humanag fill up Oy!">
+</div>
+</form>
+</body>
+</html>
